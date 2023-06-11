@@ -13,11 +13,12 @@ export default function Home() {
         }}
       >
         <h1 className="text-white text-4xl font-bold">Aceitas... namorar comigo?</h1>
+
         <div className="text-white text-4xl font-bold">
           <p className="flex text-3xl justify-center">😳</p>
           <p className="flex text-3xl justify-center">👉👈</p>
-          
-          </div>
+        </div>
+
         <div className="flex">
           <YesButton />
           <NoButton />
