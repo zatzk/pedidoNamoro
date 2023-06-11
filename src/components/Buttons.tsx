@@ -18,8 +18,13 @@ const modalStyles = {
   }
 }
 
+interface VideoModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  videoId: string;
+}
 
-const VideoModal = ({isOpen, onClose, videoId}: any) => {
+const VideoModal = ({isOpen, onClose, videoId}: VideoModalProps) => {
  
   return (
     <Modal
